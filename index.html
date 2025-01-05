@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <header style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('image/bg.jpg')">
+        <nav> 
+            <img src="logo.png" class="logo">
+            <div>
+                <!-- <button class="language-btn">English <img src="image/down icon.png" ></button> -->
+                 
+                <button class="language-btn">
+                    English
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                    </svg>
+                </button>
+                <button>Sign In</button>
+
+            </div>
+        </nav>
+        <div class="header-content">
+
+<h1> Unlimited movies, TV shows, and more.</h1>
+<h3>Starts at Rs 250. Cancel anytime.</h3>
+<p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+<form class="email-signup">
+    <input type="email " placeholder="Email address" required>
+    <button type="submit">Get Started</button>
+</form>
+        </div>
+        </header>
+    </div>
+      
+<div class="features">
+    <!-- ------------------------first row----------------------- -->
+<div class="row">
+    <div class="text-col">
+        <h2>Enjoy on Your TV.</h2>
+
+        
+        <p>Watch on smart TVs,Playstation, Xbox, Chromocast,Apply TV, Blu-ray players and more.</p>
+    </div>
+
+<div class="img-col">
+    <img src="image/feature-1.png" >
+</div>
+
+</div>
+<!-- second row -->
+<div class="row">
+
+    <div class="img-col">
+        <img src="image/feature-2.png" >
+    </div>
+    
+
+
+    <div class="text-col">
+        <h2>Download your show to watch offline.</h2>
+
+        
+        <p>Save your favourites easily and always have something to watch.</p>
+    </div>
+
+
+</div>
+
+<!-- third row -->
+
+<div class="row">
+    <div class="text-col">
+        <h2>Watch everywhere.</h2>
+
+        
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+    </div>
+
+<div class="img-col">
+    <img src="image/feature-3.png" >
+</div>
+
+</div>
+<!--forth row  -->
+<div class="row">
+
+    <div class="img-col">
+        <img src="image/feature-4.png" >
+    </div>
+    
+
+    <div class="text-col">
+        <h2>Create profile for childran.</h2>
+
+        
+        <p>Send children on adventure with their favourite characters in
+             a space made just for them free with your membership.</p>
+    </div>
+
+
+</div>
+
+<!-- 
+<div class="features"></div>
+    <div class="row">
+        <div class="text-col">
+            <h2>Enjoy on Your TV</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <div class="img-col">
+            <img src="image/fea2.png" alt="TV feature">
+        </div>
+    </div>
+</div> -->
+
+<div class="faq">
+
+<h2> Frequently Asked Questions</h2>
+<ul class="accordion">
+    <li>
+        <input type="radio" name="accordion"  id="first">
+    
+    <label for="first "> What is Netflix? </label>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto nisi quos 
+            consequatur vel harum dolore dolorem repudiandae corporis, a,
+             eum iste ipsum accusamus quasi fugiat voluptates at. Tempora, similique?</p>
+    </div>
+    </li>
+<!-- ----------second question---------- -->
+
+    <li>
+        <input type="radio" name="accordion"  id="second">
+    
+    <label for="second"> How much does Netflix cost? </label>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto nisi quos 
+            consequatur vel harum dolore dolorem repudiandae corporis, a,
+             eum iste ipsum accusamus quasi fugiat voluptates at. Tempora, similique?</p>
+    </div>
+    </li>
+
+    <!-- ----third question---------- -->
+
+    <li>
+        <input type="radio" name="accordion"  id="third">
+    
+    <label for="third "> Where can I watch? </label>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto nisi quos 
+            consequatur vel harum dolore dolorem repudiandae corporis, a,
+             eum iste ipsum accusamus quasi fugiat voluptates at. Tempora, similique?</p>
+    </div>
+    </li>
+
+<!-- ---------------forth question----------- -->
+
+<li>
+    <input type="radio" name="accordion"  id="forth">
+
+<label for="forth">What Can I watch on Netflix?</label>
+<div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto nisi quos 
+        consequatur vel harum dolore dolorem repudiandae corporis, a,
+         eum iste ipsum accusamus quasi fugiat voluptates at. Tempora, similique?</p>
+</div>
+</li>
+
+<!-------fifth question -->
+<li>
+    <input type="radio" name="accordion"  id="fifth">
+
+<label for="fifth">Is Netflixgood for Kids?</label>
+<div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto nisi quos 
+        consequatur vel harum dolore dolorem repudiandae corporis, a,
+         eum iste ipsum accusamus quasi fugiat voluptates at. Tempora, similique?</p>
+</div>
+</li>
+
+
+</ul>
+
+
+<small>Ready to watch? Enter your email to create or restart your membership.</small>
+
+
+
+<form class="email-signup">
+    <input type="email " placeholder="Email address" required>
+    <button type="submit">Get Started</button>
+</form>
+
+
+
+
+</div>
+
+<div class="footer">
+    <h2>Question? call 000-0000-0000</h2>
+<div class="row">
+    <div class="col">
+        <a href="#">FAQ</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Privacy</a>
+        <a href="#">Speed Test</a>
+    </div>
+
+    <div class="col">
+        <a href="#">Help Center</a>
+        <a href="#">Jods</a>
+        <a href="#">Cookies Prefernces</a>
+        <a href="#">Legal Notices</a>
+    </div>
+
+    <div class="col">
+        <a href="#">Account</a>
+        <a href="#">Way to watch</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Only on Netflix</a>
+    </div>
+
+    <div class="col">
+        <a href="#">Media center</a>
+        <a href="#">Term of Use</a>
+        <a href="#">Contact Us</a>
+        
+    </div>
+</div>
+
+
+<button class="language-btn">
+    English
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+    </svg>
+</button>
+
+<p class="copyright-txt">Netflix Pakistan</p>
+
+</div>
+
+
+</body>
+</html>
